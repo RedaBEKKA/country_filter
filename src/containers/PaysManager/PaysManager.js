@@ -80,7 +80,7 @@ export default class PaysManager extends Component {
            })
         }
         return (
-            <div>
+            <div className="container">
                 <Titre>Liste des pays du monde</Titre>
                 <Button typeBtn="btn-danger" clic={() => this.handlePaysRegion("all")} select={this.state.regionSelect==="all"}>Tous</Button>
                 <Button typeBtn="btn-danger" clic={() => this.handlePaysRegion("Africa")} select={this.state.regionSelect==="Africa"}>Afrique</Button>
