@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from "react-router-dom"
 
 const Pays = (props) => {
     return (
@@ -10,6 +11,7 @@ const Pays = (props) => {
                 <h2>Nom :{props.nomFrancais}</h2>
                 <p>Capitale : {props.capitale}</p>
                 <p>Région : {props.region}</p>
+                <NavLink to={props.match.url+"/"+props.nom} className="nav-link">Afficher plus d'informations</NavLink>
             </div>
         </div>
     );

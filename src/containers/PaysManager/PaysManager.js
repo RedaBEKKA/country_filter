@@ -73,7 +73,7 @@ export default class PaysManager extends Component {
              listePays =  listeReduite.map(pays=>{
                 return(
                     <div className="col-12 col-md-6" key={pays.nom}>
-                        <Pays  {...pays}/>
+                        <Pays  {...pays} {...this.props}/>
                     </div>
                    
                 )
