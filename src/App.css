@@ -1,0 +1,13 @@
+.active{
+    border-bottom: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    border-radius: 3px;
+}
+
+.activeAcceuil{
+    background: linear-gradient(90deg,indigo,rgb(233,255,200));
+}
+
+.activePays{
+    background: linear-gradient(45deg,rgba(20,105,203,0.7),rgba(89,3,40,0.8));
+}
